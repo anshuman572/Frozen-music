@@ -3,13 +3,13 @@ addEventListener('fetch', event => {
 });
 
 // Add your bot token here.
-const BOT_TOKEN = "8296880291:AAGhJSBqjsejrhYXZu0RMW5-fw3Inunqq-M";
+const BOT_TOKEN = "8493462186:AAHKy4UgkWkXlhq0120zRwAc-FpU8aNIvPI";
 
 //Pro people: don't change this else your bot will be fucked.
 const API_BASE_URL = "https://metropolitan-loise-vibeshiftbot-f38d853c.koyeb.app";
 
 //Pro people: don't change this else your bot will be fucked.
-const ASSISTANT_ID = "7049510852";
+const ASSISTANT_ID = "8563553287";
 
 
 let songQueue = [];
@@ -599,7 +599,7 @@ async function handleRequest(request) {
       const userMention = callback.from && callback.from.first_name ? callback.from.first_name : "there";
       const caption = (
         `👋 нєу ${userMention} 💠, 🥀\n\n` +
-        "🎶 Wᴇʟᴄᴏᴍᴇ ᴛᴏ Fʀᴏᴢᴇɴ 🥀 ᴍᴜsɪᴄ! 🎵\n\n" +
+        "🎶 Wᴇʟᴄᴏᴍᴇ ᴛᴏ SARU 🥀 ᴍᴜsɪᴄ! 🎵\n\n" +
         "➻ 🚀 A Sᴜᴘᴇʀғᴀsᴛ & Pᴏᴡᴇʀғᴜʟ Tᴇʟᴇɢʀᴀᴍ Mᴜsɪᴄ Bᴏᴛ ᴡɪᴛʜ ᴀᴍᴀᴢɪɴɢ ғᴇᴀᴛᴜʀᴇs. ✨\n\n" +
         "🎧 Sᴜᴘᴘᴏʀᴛᴇᴅ Pʟᴀᴛғᴏʀᴍs: ʏᴏᴜᴛᴜʙᴇ, sᴘᴏᴛɪғʏ, ʀᴇssᴏ, ᴀᴘᴘʟᴇ ᴍᴜsɪᴄ, sᴏᴜɴᴅᴄʟᴏᴜᴅ.\n\n" +
         "🔹 Kᴇʏ Fᴇᴀᴛᴜʀᴇs:\n" +
@@ -615,8 +615,8 @@ async function handleRequest(request) {
       const buttons = {
         inline_keyboard: [
           [
-            { text: "➕ Add me", url: "https://t.me/vcmusiclubot?startgroup=true" },
-            { text: "💬 Support", url: "https://t.me/Frozensupport1" }
+            { text: "➕ Add me", url: "https://t.me/bhagagvs?startgroup=true" },
+            { text: "💬 Support", url: "https://t.me/bhagagvs" }
           ],
           [
             { text: "❓ Help", callback_data: "show_help" }
@@ -687,7 +687,7 @@ async function handleRequest(request) {
       const userMention = message.from ? message.from.first_name : "there";
       const caption = (
         `👋 нєу 💠, 🥀\n\n` +
-        "🎶 Wᴇʟᴄᴏᴍᴇ ᴛᴏ Fʀᴏᴢᴇɴ 🥀 ᴍᴜsɪᴄ! 🎵\n\n" +
+        "🎶 Wᴇʟᴄᴏᴍᴇ ᴛᴏ SARU 🥀 ᴍᴜsɪᴄ! 🎵\n\n" +
         "➻ 🚀 A Sᴜᴘᴇʀғᴀsᴛ & Pᴏᴡᴇʀғᴜʟ Tᴇʟᴇɢʀᴀᴍ Mᴜsɪᴄ Bᴏᴛ ᴡɪᴛʜ ᴀᴍᴀᴢɪɴɢ ғᴇᴀᴛᴜʀᴇs. ✨\n\n" +
         "🎧 Sᴜᴘᴘᴏʀᴛᴇᴅ Pʟᴀᴛғᴏʀᴍs: ʏᴏᴜᴛᴜʙᴇ, sᴘᴏᴛɪғʏ, ʀᴇssᴏ, ᴀᴘᴘʟᴇ ᴍᴜsɪᴄ, sᴏᴜɴᴅᴄʟᴏᴜᴅ.\n\n" +
         "🔹 Kᴇʏ Fᴇᴀᴛᴜʀᴇs:\n" +
@@ -703,8 +703,8 @@ async function handleRequest(request) {
       const buttons = {
         inline_keyboard: [
           [
-            { text: "➕ Add me", url: "https://t.me/vcmusiclubot?startgroup=true" },
-            { text: "💬 Support", url: "https://t.me/Frozensupport1" }
+            { text: "➕ Add me", url: "https://t.me/bhagagvs?startgroup=true" },
+            { text: "💬 Support", url: "https://t.me/bhagagvs" }
           ],
           [
             { text: "❓ Help", callback_data: "show_help" }
